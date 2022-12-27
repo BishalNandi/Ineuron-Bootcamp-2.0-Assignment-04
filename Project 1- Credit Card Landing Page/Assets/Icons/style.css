@@ -4,23 +4,48 @@
 
 .navigation{
     display: flex;
+    background-color: #1f1f1f;
+
 }
 
 nav{
     display: flex;
-    list-style-type: none;
+    list-style-type: none;  
+    gap: 280px;
+    color: #ffff;
+    font-family:   monospace;
+    font-size: 15px;
+    
+
 }
 
 .list{
     display: flex;
     list-style-type: none;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    gap: 60px;
 }
 
 .button{
     display: flex;
     list-style-type: none;
+    gap: 50px;
+}
+
+.button li:first-child::after{
+    content: ">";
+    display: inline-block;
+    rotate: 90deg;
+    margin: 10px;
+    margin-top: -30px;
+
+}
+
+
+/* 🙂🙂😣😣😭😭 how to move the nth child bg image i am facing trouble 🙂🙂😣😣😭😭 27/12/2022 */ 
+
+.button li:nth-child(2){
+    background-image: url("btn-pink-bg.svg");
+    background-size: 100px;
+    
 
 }
