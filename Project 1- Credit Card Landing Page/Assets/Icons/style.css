@@ -8,6 +8,10 @@
 
 }
 
+.first-section{
+    background-color: #1f1f1f;
+}
+
 nav{
     display: flex;
     list-style-type: none;  
@@ -17,6 +21,16 @@ nav{
     font-size: 15px;
     
 
+}
+
+.left h1{
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+span{
+color: rgb(226, 69, 184);
 }
 
 .list{
@@ -49,3 +63,33 @@ nav{
     
 
 }
+
+.transaction{
+    display: flex;
+    color: #ffff;
+}
+
+.right{
+    display: flex;
+}
+
+.transaction{
+    background-image: url(/Photos/backCards.png);
+    /* margin-left: 0px; */
+    background-repeat: no-repeat;
+}
+
+.left p{
+    margin-left: 25px;
+}
+
+/* button css   */
+
+.getstarted{
+    background-color: transparent;
+    color: #ffff;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
